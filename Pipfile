@@ -1,0 +1,13 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[packages]
+pipenv = "==2022.3.28"
+delta-sharing = "==1.0.3"
+aiohttp = "==3.9.1"
+pipfile = "*"
+
+[dev-packages]
+pytest = "*"

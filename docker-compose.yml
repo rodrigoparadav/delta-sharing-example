@@ -1,0 +1,13 @@
+version: "3.7"
+services:
+  delta_sharing:
+    container_name: delta_sharing
+    build:
+      context: .
+      dockerfile: Dockerfile
+    env_file:
+      - .env
+    command: tail -f /dev/null
+    volumes:
+      - ./:/app/
+
